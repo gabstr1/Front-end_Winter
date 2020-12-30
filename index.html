@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todos</title>
+</head>
+<body>
+<div class="container">
+
+    <h1>To do List</h1>
+        <input type="text" class="search" placeholder="search todos...">
+    <ul class="todos"></ul>
+    <ul class="todos-completed" id=""></ul>
+
+    <h3>Add a new todo...</h3>
+
+    <form class="add">
+        <input type="text" name="description" maxlength="160" required >
+        <input type="datetime-local" name="deadline">
+    </form>
+    <div class="btn">Add</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
